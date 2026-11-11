@@ -7,7 +7,7 @@ created_at: "2026-11-11"
 
 # 2026-11-11: Final Documentation and script addition
 
-**Total time spent: 3.5 hours**
+**Total time spent: 4 hours**
 
 This session focused on creating additional scripts and getting the project set up. I created a Bill of Materials (BOM), I updated the README.md file with details about the project, and information on what hardware was used. Then I got the KiCad schematic, PCB and other additional files sorted. I checked the folder structure and uploaded the necessary files to GitHub. Finally I committed and pushed all of my most recent changes to GitHub.
 
@@ -23,7 +23,7 @@ This session focused on creating additional scripts and getting the project set 
 
 # 2026-11-11: Error Resolution
 
-**Total time spent: 7 hours**
+**Total time spent: 8 hours**
 
 After completing the four-layer PCB routing, I ran a full DRC in KiCad again. The initial check identified several issues, including:
 - Track clearance violations.
@@ -47,7 +47,7 @@ Final Success:
 
 # 2026-11-11: DRC Errors Resolution
 
-**Total time spent: 4.5 hours**
+**Total time spent: 5 hours**
 
 I performed a full DRC on my PCB using KiCad. This helped me identify any errors and warnings relating to the track clearances, open nets, overlaps, via spacing and board border. I then fixed the routing issues by filling in any missing connections and moving components/tracks where needed. I also looked at my copper zones and ensured that my ground and power connections were well connected. Once I had made the required changes, I performed a number of DRCs to confirm that my changes worked and did not cause any new issues.
 
@@ -59,7 +59,7 @@ Finally, I checked through my DRC and confirmed that there were no more design r
 
 # 2026-11-11: B.Cu Layer
 
-**Total time spent: 3.5 hours**
+**Total time spent: 4 hours**
 
 In this session I worked on the back copper layer. Making sure to route the rest of the signal lines that could not be routed on the front and inner layer. Using via’s to help connect tracks to different layers. Carefully making sure that there are no crossing tracks by routing them correctly. Once routing was complete connections were checked to make sure everything was properly connected. 
 
@@ -77,7 +77,7 @@ This took me time ass many connection issues were occuring.
 
 # 2026-11-11: In2-Cu
 
-**Total time spent: 2.5 hours**
+**Total time spent: 4 hours**
 
 This session focussed on moving onto the second inner copper layer (In2.Cu) and working on the power nets. This involved creating power nets to take the 5V and 3.3V to various parts of the board to power the MCU, sensors and other peripherals. I also worked on keeping the power nets organised and keeping the required spacing between tracks. As there are multiple power requirements on the board I wanted to make sure they were nice and neat.
 
@@ -87,7 +87,7 @@ This session focussed on moving onto the second inner copper layer (In2.Cu) and 
 
 # 2026-11-11: InCu-1 layer
 
-**Total time spent: 2.5 hours**
+**Total time spent: 4 hours**
 
 I started to work on the inside layers of the PCB. I started with the inner copper layer (In1.Cu). I focussed on the ground plane so that everything has a common reference. I also made links between the ground points and copper areas. As the board contains sensitive components such as the IMU and MCU it is important that the ground connections are properly set up to reduce any noise. I checked to ensure there were no unwanted breaks in the ground connections.
 
@@ -99,7 +99,7 @@ I started to work on the inside layers of the PCB. I started with the inner copp
 
 # 2026-11-11: Front copper layer
 
-**Total time spent: 2.5 hours**
+**Total time spent: 3 hours**
 
 I began with routing the main traces on the front copper layer (F.Cu). This involved connecting up the STM32 microcontroller to surrounding components and making sure that the sensors, capacitors, and important components were connected. Since the board was small I had to carefully plan my routing paths to make sure there would be no crossing connections and enough space for vias. This allowed me to get a basic layout of the front layer.
 
@@ -113,7 +113,7 @@ I began with routing the main traces on the front copper layer (F.Cu). This invo
 
 # 2026-11-11: PCB Setup
 
-**Total time spent: 4 hours**
+**Total time spent: 7 hours**
 
 so after completing the schematic, i moved on to the PCB design stage in KiCad. I started arranging all the components on the board and worked on the overall PCB layout. Since this board is being designed for a small drone, keeping the PCB compact is important. I carefully placed the main components, sensors, connectors and power circuits while considering their positions and connections. I also completed the board boundary setup to define the overall size and shape of the PCB.
 
@@ -125,7 +125,7 @@ I made sure the component placement was organised and that enough space was avai
 
 # 2026-11-11: Final schematic polish 
 
-**Total time spent: 2 hours**
+**Total time spent: 3 hours**
 
 so at this point i added the camera strobe, usb c, blackbox and others in the schematic and reviewed the whole schematic and fixed all the issues.
 
@@ -162,7 +162,7 @@ finally i ran the ERC in KiCad and fixed all floating pin warnings.
 
 # 2026-11-11: MCU Core
 
-**Total time spent: 3.5 hours**
+**Total time spent: 4 hours**
 
 so i connected the STM32H743VIT6 microcontroller in KiCad and added the required capacitors, 25MHz crystal and reset circuit for stable operation. I also make sure that all power and ground connections were properly wired. Than i connected the onboard sensors: the ICM-42688-P IMU through SPI1, the DPS310 barometer through I2C1, and the W25Q128 Blackbox flash memory through SPI2. This allows the MCU to collect sensor data and store flight logs.
 
@@ -178,7 +178,7 @@ so i connected the STM32H743VIT6 microcontroller in KiCad and added the required
 
 # 2026-11-11: Power Supply
 
-**Total time spent: 3 hours**
+**Total time spent: 4 hours**
 
 In this section I focused on the power section in KiCad. Drone flight controllers are exposed to voltage spikes from the ESC and motors. As such, it was important to have a solid power section.
 

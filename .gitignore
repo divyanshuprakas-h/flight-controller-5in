@@ -1,0 +1,7 @@
+.DS_Store
+*.lck
+*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_autosave*
+*.tmp

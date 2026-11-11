@@ -1,6 +1,6 @@
 ---
 title: "Flight Controller"
-author: "vihaangupta.106"
+author: "sharky"
 description: "A flight controller is the main control unit of a drone. It receives data from sensors such as the IMU, barometer, GPS, optical flow, and lidar, processes this information, and sends control signals to the motors/ESCs to maintain stability, altitude, orientation, and flight direction."
 created_at: "2026-11-11"
 ---
